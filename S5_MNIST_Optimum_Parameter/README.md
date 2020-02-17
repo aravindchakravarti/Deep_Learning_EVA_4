@@ -18,6 +18,9 @@ Lets try these things first.
 
 ## Code is available at:
 https://drive.google.com/file/d/1yDT9P4jc6ITXiTGnnex7boq_JblC_z_I/view?usp=sharing
+
+
+
 ------------------------------------------------------------------------------------------------------------
 
 # Try 2:
@@ -27,13 +30,19 @@ https://drive.google.com/file/d/1yDT9P4jc6ITXiTGnnex7boq_JblC_z_I/view?usp=shari
 * Do have the accuracy at-least 98%
 
 ## Result
-
+* Successfully added FC after GAP
+* 9772 parameters
+* Accuracy = 98.95 in last epoch (rough average)
 
 ## Analysis
-
-
+* Decreasing learning helped to smoothen the curves (<- It is a good sign)
+* Even with <10k parametes, hitting 98.95% accuracy is good. But not enough to hit 99.4%
+* Next step is to use master tool -> Augmentation!!
 
 ## Code is available at:
+https://colab.research.google.com/drive/1WJy6A6LNBH2-BRipTBInKbOzsRhuxlfx
+
+
 
 ------------------------------------------------------------------------------------------------------------
 
