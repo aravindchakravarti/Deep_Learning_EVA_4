@@ -68,17 +68,23 @@ https://colab.research.google.com/drive/1Mv1G_W0GsxoiPGn61q_NyqMqQ3HNlh6R
 
 # Try 4:
 ## Target
-* Make code more 'Readable' by adding some visualizers. Such as, Training and Test accuracy plots.
-* Use drop out and check the accuracy.
+* Must hit 99.4% accuracy atleast 3 times in 15 epochs
+* Should I really use 1x1 kernel? May not be, because we have like 10-14 channels in first block. May not be required.
+* Use learning rate schedular
 
 ## Result
-
+* Achieved 99.4 in 1 epoch! (12th epoch)
+* Parameters = 9.3k parameters
 
 ## Analysis
-
+* Readuced the learning rate to 0.005 with StepLR of gamma 0.5/10 epochs
+* Reduced (almost removed the dropout) - Why? We are using the augmentations. So, dropout may not do much help.
+* Removed 1x1 kernel at this moment. Why?- Because have about 10-14 channels in first block. 1x1 may not help too much. 
 
 
 ## Code is available at:
+https://colab.research.google.com/drive/1VrXTDA58W8JtBhCtvCv_S08YwT-Jj6Rl
+
 
 ------------------------------------------------------------------------------------------------------------
 
