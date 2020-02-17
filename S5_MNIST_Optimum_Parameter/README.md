@@ -20,7 +20,6 @@ Lets try these things first.
 https://drive.google.com/file/d/1yDT9P4jc6ITXiTGnnex7boq_JblC_z_I/view?usp=sharing
 
 
-
 ------------------------------------------------------------------------------------------------------------
 
 # Try 2:
@@ -32,7 +31,7 @@ https://drive.google.com/file/d/1yDT9P4jc6ITXiTGnnex7boq_JblC_z_I/view?usp=shari
 ## Result
 * Successfully added FC after GAP
 * 9772 parameters
-* Accuracy = 98.95 in last epoch (rough average)
+* Accuracy = 98.95 in last 5 epochs (rough average)
 
 ## Analysis
 * Decreasing learning helped to smoothen the curves (<- It is a good sign)
@@ -48,17 +47,21 @@ https://colab.research.google.com/drive/1WJy6A6LNBH2-BRipTBInKbOzsRhuxlfx
 
 # Try 3:
 ## Target
-* Make code more 'Readable' by adding some visualizers. Such as, Training and Test accuracy plots.
-* Use drop out and check the accuracy.
+* Use augmentations and see where I can get
+* Change the model little bit/make it more efficient 
 
 ## Result
-
+* Parameters = 8.6k 
+* Accuracy = 98.1% in last 5 epoch (approx)
+* Augmentation = Used
 
 ## Analysis
-
-
+* MNIST is a very easy dataset. We do not need many kernels in first few layers. As, barely there are horizontal and vertical edges. Hence, decided to use just 6 kernels in beginning. 
+* Proabably I should use LR Schedular to hit 99.4% atleast 2-3 times in last 5 epochs
 
 ## Code is available at:
+https://colab.research.google.com/drive/1Mv1G_W0GsxoiPGn61q_NyqMqQ3HNlh6R
+
 
 ------------------------------------------------------------------------------------------------------------
 
