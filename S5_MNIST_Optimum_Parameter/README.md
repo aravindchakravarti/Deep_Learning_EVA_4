@@ -90,16 +90,21 @@ https://colab.research.google.com/drive/1VrXTDA58W8JtBhCtvCv_S08YwT-Jj6Rl
 
 # Try 5:
 ## Target
-* Make code more 'Readable' by adding some visualizers. Such as, Training and Test accuracy plots.
-* Use drop out and check the accuracy.
+* Must hit 99.4% accuracy atleast 3 times in 15 epochs
+* Change augmentation stratergy if not able to acheive the required accuracy
 
 ## Result
-
+* Achieved 99.4, three times
+* Used shear augmentation stratergy as well
+* Number of parameters 9302 parameters
 
 ## Analysis
-
-
+By looking at the dataset, I felt like shear transform also should work along with rotation. Because the straight lines drawn by human hands will not be 90 degrees, but will have some inclination
+When we see the train accuracy it is about 99.0% and test accuracy is around 99.4%. This shows that network has very good capacity. If we train a little extra, probably we may achieve much more accuracy
+Code is available at:
 
 ## Code is available at:
+https://colab.research.google.com/drive/1mUwuzT9dvQRV89GskhuHYy1VXttPypYD
+
 
 ------------------------------------------------------------------------------------------------------------
