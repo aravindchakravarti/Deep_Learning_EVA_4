@@ -1,0 +1,1 @@
+This repository contains working of MNIST dataset with different regularization
