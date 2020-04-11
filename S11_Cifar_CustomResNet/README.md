@@ -1,0 +1,1 @@
+Trained Cifar-10 with One Cycle Policy (Super Convergence)
